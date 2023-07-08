@@ -43,7 +43,16 @@ section#login {
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
-
+section#login > div#formulario > h1 {
+    text-align: center;
+}
+section#login > div#formulario > p {
+    font-size: 0.8em;
+    text-align: justify;
+    letter-spacing: 1.5px;
+    padding-top: 5px;
+    text-indent: 5px;
+}
 section#login > div#imagem {
     background:  #f17436 url(../imagens/predio.jpg);
     width: 100%;
@@ -55,4 +64,27 @@ section#login > div#imagem {
 section#login > div#formulario {
     display: block;
     padding: 10px;
+}
+
+ div.campo {
+    padding-top: 6px;
+    margin: 2px;
+    text-align: left bottom;
+    display: block;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #F27938;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: #FEC453;
 }

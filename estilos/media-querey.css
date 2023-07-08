@@ -31,10 +31,10 @@
         width: 80vw;
     }
     body {
-        background-image: linear-gradient(to top, #f17436 ,#ffc955 );
+        background-image: linear-gradient(to left, #f17436 ,#ffc955 );
     }
     section#login > div#imagem {
-        float: left;
+        float: right;
         width: 34%;
         height: 120%;
         background: url(../imagens/predio-tablet.jpg);
@@ -44,7 +44,7 @@
     }
 
     section#login > div#formulario {
-        float: right;
+        float: left;
         width: 65%;
     
     }
